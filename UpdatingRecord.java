@@ -7,7 +7,7 @@ import oracle.jdbc.OracleDriver;
 public class UpdatingRecord {
     public static void main(String[] args) throws Exception {
         DriverManager.registerDriver(new OracleDriver());
-        Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "bca3", "college123");
+        Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "bca", "college123");
         Scanner sc = new Scanner(System.in);
 
         while (true) {
