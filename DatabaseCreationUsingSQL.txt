@@ -1,0 +1,3 @@
+SQL Query:-> 
+create user bca identified by college123;
+grant dba to bca;
